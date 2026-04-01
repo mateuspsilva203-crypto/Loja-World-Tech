@@ -12,11 +12,7 @@
     --font-family: 'Poppins', sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 html {
     scroll-behavior: smooth; /* Rolagem suave entre seções */
@@ -755,44 +751,4 @@ footer {
 }
 .acessorios{
     background-color:#0a0a0a ;
-}
-@media (max-width: 768px) {
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  nav ul {
-    flex-direction: column;
-    width: 100%;
-    padding-top: 10px;
-  }
-
-  .header-contact {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .hero-btns {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .services-grid,
-  .acessorios-grid,
-  .quick-services-cards,
-  .diferenciais-grid,
-  .contact-info-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 20px;
-  }
 }
