@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const sendWppMessage = (text) => {
         const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
-        window.open(url, '_blank');
+        window.location.href = url;
     };
 
     document.addEventListener('click', (e) => {
